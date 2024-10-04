@@ -15,4 +15,4 @@ const EsquemaAlumnos = new Schema({
     }
 })
 
-export const modeloAlumnos = new model("Alumnos Reprobados", PrimerParcial);
+export const modeloAlumnos = new model("Alumnos Reprobados", EsquemaAlumnos);

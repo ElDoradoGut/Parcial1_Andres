@@ -35,6 +35,6 @@ modeloAlumnos.create({
     edad: 22
 })
 
-export const test=()=>{
+export const Primer_Parcial=()=>{
     console.log("Se esta mandando llamar correctamente el controlador.")
 }

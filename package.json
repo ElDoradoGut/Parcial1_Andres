@@ -1,20 +1,27 @@
 {
-  "name": "Parcial1_Andres",
+  "name": "parcial1_andres",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
+  "type": "module",
   "scripts": {
-    "start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Andrés Dorado Gutiérrez",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.21.0",
-    "mongoose": "^8.7.0",
-    "node.js": "^0.0.1-security"
-  }
+    "mongoose": "^8.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElDoradoGut/Parcial1_Andres.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ElDoradoGut/Parcial1_Andres/issues"
+  },
+  "homepage": "https://github.com/ElDoradoGut/Parcial1_Andres#readme",
+  "description": ""
 }

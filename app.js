@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 import cors from "cors";
 import express from "express";
 import dotenv from "dotenv";
-
+import { Primer_Parcial } from "./backend/controllers/alumno.controller.js";
 dotenv.config()
 
 mongoose.connect(process.env.urlbase)
@@ -20,4 +20,4 @@ app.listen(4000,()=>{
     console.log("Se escucha correctamente el servidor.");
 })
 
-test();
+Primer_Parcial();
